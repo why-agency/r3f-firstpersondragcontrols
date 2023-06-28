@@ -1,7 +1,6 @@
 {
   "name": "r3f-firstpersondragcontrols",
   "version": "0.1.0",
-  "main": "dist/index.js",
   "publishConfig": {
     "access": "public"
   },
