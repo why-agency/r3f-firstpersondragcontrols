@@ -1,14 +1,18 @@
 {
-  "name": "react-three-fiber-first-person-drag-controls",
+  "name": "r3f-firstpersondragcontrols",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-three/cannon": "^6.5.2",
+    "@react-three/drei": "^9.77.6",
+    "@react-three/fiber": "^8.13.4",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "three": "^0.153.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +38,34 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "A pointer-capture-free first person controls component for React Three Fiber, using Cannon physics.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/why-agency/r3f-firstpersondragcontrols.git"
+  },
+  "keywords": [
+    "react",
+    "three",
+    "fiber",
+    "first",
+    "person",
+    "drag",
+    "controls",
+    "cannon",
+    "physics",
+    "cannon-es",
+    "useCannon",
+    "dragcontrols",
+    "mouse",
+    "free",
+    "pointer",
+    "capture"
+  ],
+  "author": "Dario Sanchez, &why",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/why-agency/r3f-firstpersondragcontrols/issues"
+  },
+  "homepage": "https://github.com/why-agency/r3f-firstpersondragcontrols#readme"
 }
