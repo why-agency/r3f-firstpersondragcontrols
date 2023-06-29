@@ -3,8 +3,11 @@ A first person controller with free mouse movement for React Three Fiber, using 
 
 ## Dependencies
 `react` v18.2.0 or higher
+
 `@react-three/fiber` v8.3.4 or higher
+
 `@react-three/drei` v9.77.6 or higher
+
 `@react-three/cannon` v6.5.2 or higher
 
 ## Installation
