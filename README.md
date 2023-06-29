@@ -47,22 +47,32 @@ function App() {
 export default App;
 ```
 
+#### Floor
+For the sake of fast prototyping, a `<Floor/>` object is included in the package. You may use it to place a floor plane that works out of the box with the controller. It is a simple plane with a `name` prop set to `"floor"`, which is necessary for the player to detect when it is on the floor. You can use any other plane or planes, but you have to set the `name` prop to `"floor"` for it to work. It accepts the following props:
+
+| Name     | Type        | Default                                    | Description                                               |
+| -------- | ----------- | ------------------------------------------ | --------------------------------------------------------- |
+| size     | number      | 100                                        | Determines the size of the floor plane in a square shape. |
+| material | JSX Element | `<meshStandardMaterial color={"green"} />` | Material applied to plane                                 |
+| ...props | object      | None                                       | Other props that can be passed to the component           |
+
+
 ## Props
 `FirstPersonDragControls` takes the following props:
-| Name            | Type          | Default           | Description                                                          |
-| --------------- | ------------- | ----------------- | -------------------------------------------------------------------- |
-| `target`        | Array         | `[0, 2.5, -3000]` | Initial target coordinates                                           |
-| `playerMass`    | Number        | `1`               | The mass of the player sphere                                        |
-| `initPos`       | Array         | `[0, 2.5, 0]`     | Initial position of the player                                       |
-| `moveSpeed`     | Number        | `2.3`             | Speed of the player's movement                                       |
-| `runSpeed`      | Number        | `3.5`             | Speed of the player's run                                            |
-| `initFov`       | Number        | `45`              | Initial field of view                                                |
-| `maxFov`        | Number        | `50`              | Maximum field of view when running                                   |
-| `fovLerpFactor` | Number        | `0.1`             | Field of view lerp factor                                            |
-| `jumpVelocity`  | Number        | `5`               | Jump velocity of the player                                          |
-| `floorName`     | String        | `"floor"`         | Name of the floor plane, necessary to detect when jumping is allowed |
-| `keys`          | Object        | Explained below   | Key bindings for controls                                            |
-| `controls`      | React Element | Explained below   | Mouse Control Element                                                |
+| Name            | Type          | Default           | Description                                                                                                      |
+| --------------- | ------------- | ----------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `target`        | Array         | `[0, 2.5, -3000]` | Initial position the camera will be looking at. Set in horizon to not interfere.                                 |
+| `playerMass`    | Number        | `1`               | The mass of the player sphere                                                                                    |
+| `initPos`       | Array         | `[0, 2.5, 0]`     | Initial position of the player                                                                                   |
+| `moveSpeed`     | Number        | `2.3`             | Player's walking speed                                                                                           |
+| `runSpeed`      | Number        | `3.5`             | Player's running speed                                                                                           |
+| `initFov`       | Number        | `45`              | Normal field of view                                                                                             |
+| `maxFov`        | Number        | `50`              | Maximum field of view when running                                                                               |
+| `fovLerpFactor` | Number        | `0.1`             | How fast the fov increases and decreases                                                                         |
+| `jumpVelocity`  | Number        | `5`               | Velocity to apply when jumping                                                                                   |
+| `floorName`     | String        | `"floor"`         | Name of the floor plane, necessary to detect when jumping is allowed. `<Floor>` object included simplifies this. |
+| `keys`          | Object        | Explained below   | Key bindings for controls                                                                                        |
+| `controls`      | React Element | Explained below   | Mouse Control Element                                                                                            |
 
 There are two special Object props that can be passed to `FirstPersonDragControls`. 
 

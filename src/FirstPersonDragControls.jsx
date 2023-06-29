@@ -192,7 +192,7 @@ export const FirstPersonDragControls = ({
  */
 export const Floor = ({
   size = 100,
-  material = <meshBasicMaterial color={"green"} />,
+  material = <meshStandardMaterial color={"green"} />,
   ...props
 }) => {
   const [ground] = usePlane(() => ({
@@ -202,7 +202,7 @@ export const Floor = ({
     ...props,
   }));
   return (
-    <mesh name="floor" ref={ground}>
+    <mesh receiveShadow name="floor" ref={ground}>
       <planeGeometry args={[size, size]} />
       {material}
     </mesh>

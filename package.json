@@ -40,10 +40,6 @@
     ]
   },
   "description": "A pointer-capture-free first person controls component for React Three Fiber, using Cannon physics.",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/why-agency/r3f-firstpersondragcontrols.git"
-  },
   "keywords": [
     "react",
     "three",
@@ -63,9 +59,5 @@
     "capture"
   ],
   "author": "Dario Sanchez, &why",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/why-agency/r3f-firstpersondragcontrols/issues"
-  },
-  "homepage": "https://github.com/why-agency/r3f-firstpersondragcontrols#readme"
+  "license": "ISC"
 }
