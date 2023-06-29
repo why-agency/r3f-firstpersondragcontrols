@@ -15,10 +15,26 @@ export const UIElements = () => {
           width: 100,
           height: 50,
           pointerEvents: "auto",
+          cursor: "pointer",
         }}
       >
         Button
       </button>
+      <p
+        style={{
+          backgroundColor: "white",
+          width: "fit-content",
+          position: "absolute",
+          top: 30,
+          left: "50%",
+          transform: "translateX(-50%)",
+          padding: 10,
+          borderRadius: 5,
+        }}
+      >
+        WASD to move. Click and drag to look around. Space to jump. Hold Shift
+        to run.
+      </p>
     </>
   );
 };
