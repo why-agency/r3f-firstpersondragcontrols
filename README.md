@@ -5,6 +5,8 @@ FPDC allows you to drag the camera around in first person, freeing the mouse for
 
 ![FPDC allows you to drag the camera around in first person, freeing the mouse for interactions anywhere on the screen.](https://raw.githubusercontent.com/why-agency/r3f-firstpersondragcontrols/production/public/video2.gif)
 
+## Demo
+https://r3f-firstpersondragcontrols.vercel.app/
 
 ## Dependencies
 `react` v18.2.0 or higher
