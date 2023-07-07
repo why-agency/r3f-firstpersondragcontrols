@@ -1,7 +1,9 @@
 # r3f-FirstPersonDragControls
-A first person controller with free mouse movement for React Three Fiber, using Cannon physics.
+A first person controller with free mouse movement for React Three Fiber, using Cannon physics. 
 
-![FPDC allows you to drag the camera around in first person, freeing the mouse for interactions anywhere on the screen.](https://raw.githubusercontent.com/why-agency/r3f-firstpersondragcontrols/production/public/video.gif)
+FPDC allows you to drag the camera around in first person, freeing the mouse for interactions anywhere on the screen.
+
+![FPDC allows you to drag the camera around in first person, freeing the mouse for interactions anywhere on the screen.](https://raw.githubusercontent.com/why-agency/r3f-firstpersondragcontrols/production/public/video2.gif)
 
 
 ## Dependencies
