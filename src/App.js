@@ -4,7 +4,7 @@ import {
   FirstPersonDragControls,
   Floor,
 } from "./components/FirstPersonDragControls";
-import { Box, Sky } from "@react-three/drei";
+import { Sky } from "@react-three/drei";
 import { Physics } from "@react-three/cannon";
 import { GeometryElements, UIElements } from "./components/Elements";
 
