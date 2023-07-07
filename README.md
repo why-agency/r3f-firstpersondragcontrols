@@ -2,7 +2,7 @@
 A first person controller with free mouse movement for React Three Fiber, using Cannon physics.
 
 <video width="320" height="240" controls>
-  <source src="https://raw.githubusercontent.com/why-agency/r3f-firstpersondragcontrols/production/public/r3f-fpdc-video.webp" type="video/webp">
+  <source src="https://raw.githubusercontent.com/why-agency/r3f-firstpersondragcontrols/production/public/video.webp" type="video/webp">
   Your browser does not support the video tag.
 </video>
 
