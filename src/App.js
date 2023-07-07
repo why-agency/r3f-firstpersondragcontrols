@@ -1,9 +1,12 @@
 import "./App.css";
 import { Canvas } from "@react-three/fiber";
-import { FirstPersonDragControls, Floor } from "./FirstPersonDragControls";
+import {
+  FirstPersonDragControls,
+  Floor,
+} from "./components/FirstPersonDragControls";
 import { Box, Sky } from "@react-three/drei";
 import { Physics } from "@react-three/cannon";
-import { GeometryElements, UIElements } from "./Elements";
+import { GeometryElements, UIElements } from "./components/Elements";
 
 function App() {
   return (
