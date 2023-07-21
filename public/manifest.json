@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "R3F-FirstPersonDragControls",
+  "name": "R3F-FirstPersonDragControls Demo Page",
   "icons": [
     {
       "src": "favicon.ico",
