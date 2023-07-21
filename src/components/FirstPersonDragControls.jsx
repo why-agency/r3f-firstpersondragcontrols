@@ -68,23 +68,7 @@ export const FirstPersonDragControls = ({
     Space: "space",
     ShiftLeft: "shift",
   },
-  controls = (
-    <OrbitControls
-      makeDefault
-      target={target}
-      enableZoom={false}
-      enablePan={true}
-      enableRotate={false}
-      panSpeed={2}
-      keyPanSpeed={0}
-      dampingFactor={0.1}
-      mouseButtons={{
-        RIGHT: null,
-        LEFT: THREE.MOUSE.PAN,
-        MIDDLE: null,
-      }}
-    />
-  ),
+  controls = null,
   ...props
 }) => {
   // Create player sphere as a physics body
@@ -179,7 +163,23 @@ export const FirstPersonDragControls = ({
   });
   return (
     <>
-      {controls}
+      {controls || (
+        <OrbitControls
+          makeDefault
+          target={target}
+          enableZoom={false}
+          enablePan={true}
+          enableRotate={false}
+          panSpeed={2}
+          keyPanSpeed={0}
+          dampingFactor={0.1}
+          mouseButtons={{
+            RIGHT: null,
+            LEFT: THREE.MOUSE.PAN,
+            MIDDLE: null,
+          }}
+        />
+      )}
       <mesh ref={ref} />
     </>
   );

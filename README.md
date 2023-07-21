@@ -3,7 +3,7 @@ A first person controller with free mouse movement for React Three Fiber, using 
 
 FPDC allows you to drag the camera around in first person, freeing the mouse for interactions anywhere on the screen.
 
-![FPDC allows you to drag the camera around in first person, freeing the mouse for interactions anywhere on the screen.](https://i.imgur.com/gz6lPtW.gif)
+![FPDC allows you to drag the camera around in first person, freeing the mouse for interactions anywhere on the screen.](https://i.imgur.com/13lNAtj.gif)
 
 ## Demo
 https://r3f-firstpersondragcontrols.vercel.app/
