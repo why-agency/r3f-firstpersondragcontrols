@@ -1,3 +1,5 @@
+import { usePlane } from "@react-three/cannon";
+
 /**
  * Basic floor plane preconfigured for FirstPersonDragControls
  * @param {*} param0
