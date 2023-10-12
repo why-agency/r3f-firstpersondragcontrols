@@ -1,4 +1,9 @@
+
+#WARNING 
+This repo is a WORK IN PROGRESS and installation through npm package is NOT working yet. If you wish to use this package, I would recommend cloning and using the files directly. I will fix it when I get some time to figure it out! Thank you for your understanding :)
+
 # r3f-FirstPersonDragControls
+
 A first person controller with free mouse movement for React Three Fiber, using Cannon physics. 
 
 FPDC allows you to drag the camera around in first person, freeing the mouse for interactions anywhere on the screen.
