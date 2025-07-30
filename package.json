@@ -1,14 +1,19 @@
 {
   "name": "r3f-firstpersondragcontrols",
   "version": "0.1.5",
-  "peerDependencies": {
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-object-rest-spread": "^7.28.0",
+    "@babel/plugin-transform-react-jsx": "^7.27.1",
     "@react-three/cannon": "^6.5.2",
     "@react-three/drei": "^9.77.6",
     "@react-three/fiber": "^8.13.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "three": "^0.153.0"
+    "three": "^0.167.0"
   },
   "scripts": {
     "start": "react-scripts start",
